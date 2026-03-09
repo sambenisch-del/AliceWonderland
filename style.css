@@ -1,0 +1,71 @@
+body{
+    font-family: 'Merriweather', serif;
+    background-color:#f8f6f2;
+    color:#222;
+    margin:0;
+}
+
+/* Layout */
+
+header{
+    text-align:center;
+    padding:30px;
+    background:#e8e1d4;
+}
+
+main{
+    max-width:45em;
+    margin:auto;
+    padding:20px;
+    line-height:1.45em;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#e8e1d4;
+    margin-top:40px;
+}
+
+/* Navigation */
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    background:#d9cfbd;
+    padding:15px;
+}
+
+nav a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#333;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* Typography */
+
+h1{
+    font-size:2.2em;
+}
+
+h2{
+    margin-top:30px;
+}
+
+p{
+    margin-bottom:18px;
+    text-align:left;
+}
+
+/* Images */
+
+img{
+    float:right;
+    width:220px;
+    margin:10px 0 10px 20px;
+}
